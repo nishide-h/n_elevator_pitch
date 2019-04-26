@@ -1,0 +1,9 @@
+{
+  "name": "n_elevator_pitch",
+  "private": true,
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
