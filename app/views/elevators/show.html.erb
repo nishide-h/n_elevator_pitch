@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Needs:</strong>
+  <%= @elevator.needs %>
+</p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @elevator.client %>
+</p>
+
+<p>
+  <strong>Product name:</strong>
+  <%= @elevator.product_name %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @elevator.category %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @elevator.value %>
+</p>
+
+<p>
+  <strong>Conflict:</strong>
+  <%= @elevator.conflict %>
+</p>
+
+<p>
+  <strong>Difference:</strong>
+  <%= @elevator.difference %>
+</p>
+
+<%= link_to 'Edit', edit_elevator_path(@elevator) %> |
+<%= link_to 'Back', elevators_path %>
